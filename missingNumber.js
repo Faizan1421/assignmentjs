@@ -19,4 +19,4 @@ newArray.forEach((item, i) => {
     result.push(`${item} is missing on index ${i}`);
   }
 });
-console.log(result);
+console.log(result.join("\n"));
