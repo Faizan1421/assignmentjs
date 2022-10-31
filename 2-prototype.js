@@ -5,8 +5,8 @@ Object.defineProperty(Array.prototype, "mySortingArray", {
 });
 
 Object.defineProperty(Array.prototype, "addAllNums", {
-  value: function (numsArray) {
-    let a = numsArray.reduce((a, b) => a + b, 0);
+  value: function () {
+    let a = this.reduce((a, b) => a + b, 0);
     return a;
   },
 });
@@ -14,7 +14,7 @@ Object.defineProperty(Array.prototype, "addAllNums", {
 let num = [4, 6, 3, 2, 5, 7, 1, 8];
 
 console.log(num.mySortingArray()); //Output [ 1, 2, 3, 4, 5, 6, 7, 8 ]
-console.log(num.addAllNums(num)); //output 36
+console.log(num.addAllNums()); //output 36
 // built in Array Prototypes methods
 // fill()
 // reverse()
