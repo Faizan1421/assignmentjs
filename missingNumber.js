@@ -7,7 +7,7 @@ let lastValue = arr[arr.length - 1];
 console.log(firstValue);
 console.log(lastValue);
 
-for (let i = 0; i <= lastValue; i++) {
+for (let i = firstValue; i <= lastValue; i++) {
   if (i >= firstValue && i <= lastValue) {
     newArray.push(i);
   }
