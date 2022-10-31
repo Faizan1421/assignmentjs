@@ -15,7 +15,7 @@ let num = [4, 6, 3, 2, 5, 7, 1, 8];
 
 console.log(num.mySortingArray());
 console.log(num.addAllNums(num));
-// built in Prototypes methods
+// built in Array Prototypes methods
 // fill()
 // reverse()
 // pop()
