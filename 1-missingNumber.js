@@ -23,3 +23,19 @@ function missingNumbers(arr) {
 }
 let ans = missingNumbers(arr).join("\n");
 console.log(ans);
+
+/* output:
+14 is missing on index 2 
+15 is missing on index 3 
+17 is missing on index 5 
+18 is missing on index 6 
+20 is missing on index 8 
+21 is missing on index 9 
+22 is missing on index 10 
+23 is missing on index 11 
+24 is missing on index 12 
+25 is missing on index 13 
+26 is missing on index 14 
+27 is missing on index 15 
+28 is missing on index 16 
+29 is missing on index 17 */

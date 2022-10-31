@@ -13,8 +13,8 @@ Object.defineProperty(Array.prototype, "addAllNums", {
 
 let num = [4, 6, 3, 2, 5, 7, 1, 8];
 
-console.log(num.mySortingArray());
-console.log(num.addAllNums(num));
+console.log(num.mySortingArray()); //Output [ 1, 2, 3, 4, 5, 6, 7, 8 ]
+console.log(num.addAllNums(num)); //output 36
 // built in Array Prototypes methods
 // fill()
 // reverse()
