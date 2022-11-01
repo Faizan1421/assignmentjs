@@ -24,7 +24,7 @@ let quiz = [
 ];
 let totalScore = [];
 for (let i = 0; i < quiz.length; i++) {
-  let q = prompt(`${quiz[i].question} ${quiz[0].options} `);
+  let q = prompt(`${quiz[i].question} ${quiz[i].options} `);
   let final =
     q.toLowerCase() == quiz[i].ans.toLowerCase()
       ? "Correct Answer"
