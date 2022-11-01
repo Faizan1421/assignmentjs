@@ -2,6 +2,8 @@ Object.defineProperty(Array.prototype, "mySortingArray", {
   value: function (compare) {
     return [].concat(this).sort(compare);
   },
+  enumerable: true,
+  configurable: true,
 });
 
 Object.defineProperty(Array.prototype, "addAllNums", {
@@ -9,6 +11,8 @@ Object.defineProperty(Array.prototype, "addAllNums", {
     let a = this.reduce((a, b) => a + b, 0);
     return a;
   },
+  enumerable: true,
+  configurable: true,
 });
 
 let num = [4, 6, 3, 2, 5, 7, 1, 8];
